@@ -1,0 +1,25 @@
+{
+  "env": {
+    "browser": true,
+    "node": true
+  },
+  "extends": [
+    "eslint:recommended",
+    "plugin:react/recommended"
+  ],
+  "parserOptions": {
+      "ecmaVersion": 6,
+      "sourceType": "module",
+      "ecmaFeatures": {
+          "jsx": true
+      }
+  },
+  "plugins": [ "react" ],
+  "rules": {
+    "indent": [ "error", 2 ],
+    "no-unused-vars": [ "warn", { "vars": "all", "args": "all" } ],
+    "quotes": [ "warn", "single" ],
+    "semi": [ "warn", "never" ],
+    "react/prop-types": "warn"
+  }
+}
