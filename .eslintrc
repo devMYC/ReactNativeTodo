@@ -17,7 +17,7 @@
   "plugins": [ "react" ],
   "rules": {
     "comma-style": [ "warn", "first", { "exceptions": { "ArrayExpression": true, "ObjectExpression": true } } ],
-    "indent": [ "error", 2 ],
+    "indent": [ "error", 2, { "SwitchCase": 1 } ],
     "no-unused-vars": [ "warn", { "vars": "all", "args": "all", "argsIgnorePattern": "^_$" } ],
     "quotes": [ "warn", "single" ],
     "semi": [ "warn", "never" ],
